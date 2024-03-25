@@ -31,11 +31,11 @@ namespace output {
     }
 
     void figures_intersect() {
-        std::cout << "Gives figures intersect " << std::endl;
+        std::cout << "Given figures intersect " << std::endl;
     }
 
     void figures_dnt_intersect() {
-        std::cout << "Gives figures do not intersect " << std::endl;
+        std::cout << "Given figures do not intersect " << std::endl;
     }
 
     void bye() {
