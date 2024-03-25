@@ -5,7 +5,7 @@
 
 namespace geometry {
 	double angle_betw_vec(double xv1, double yv1, double xv2, double yv2) {
-		return abs(xv1 * xv2 + yv1 * yv2) / (std::sqrt(xv1 * xv1 + yv1 * yv1) * std::sqrt(xv2 * xv2 + yv2 * yv2));
+		return xv1 * xv2 + yv1 * yv2 / (std::sqrt(xv1 * xv1 + yv1 * yv1) * std::sqrt(xv2 * xv2 + yv2 * yv2));
 	}
 
 	double dist_betw_points(double x1, double y1, double x2, double y2) {
