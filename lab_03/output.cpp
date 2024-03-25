@@ -39,6 +39,6 @@ namespace output {
     }
 
     void bye() {
-        std::cout << "GG, GL, BB" << std::endl;
+        std::cout << "gl, bye" << std::endl;
     }
 }
